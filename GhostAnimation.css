@@ -1,0 +1,75 @@
+:root{
+    --box-width: 500px;
+    --height: 600px;
+}
+body{
+    background-color: gray;
+}
+
+#ghostContainer{
+    width: 80%;
+    height: 86%;
+    border: 1px solid blue;
+    margin: 10% 10% 5%;
+    background-image: url(ghost_house.jpg);
+    background-size: cover;
+    position: absolute;
+    overflow: scroll;
+    color: aqua;
+}
+#sourceCode_zone{
+    width: 80%;
+    height: 86%;
+    border: 1px solid blue;
+    position: absolute;
+    margin: 10%;
+    color: #000;
+    overflow: scroll;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.container{
+    width: var(--box-width);
+    height: var(--height);
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    margin: 5% 0 0% 2%;
+}
+#animation_zone{
+    width: 80%;
+    height: 45%;
+    margin: 10% 10% 0 10%;
+    border: 1px solid blue;
+    position: absolute;
+}
+#button_zone{
+    width: 80%;
+    height: 30%;
+    border: 1px solid blue;
+    margin: 70% 10% 0 10%;
+    position: absolute;
+}
+.title{
+    width: 100%;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 20px;
+    font: 1.5em sans-serif;
+}
+span{
+    width: 120px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 10%;
+    padding: 10px 20px;
+    margin: 5px 10px;
+    text-align: center;
+    background-color: aqua;
+}
+span:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+}
